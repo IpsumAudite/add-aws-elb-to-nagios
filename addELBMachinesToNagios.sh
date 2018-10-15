@@ -55,7 +55,7 @@ machineCleanup () {
         ELB_LIST=$(cat $ELB_FILE)
 
         # Loop through the directory that contains the config files and look for files not
-        # in the ELB list (aka dead machine configs)
+        # in the ELB list (aka dead machine configs
         for f in $DIR_TO_SEARCH*;
         do
                 VAR_TO_DELETE=$(ls $f | egrep -vi "$ELB_LIST")
