@@ -1,3 +1,4 @@
+## Authors Leo Claus and Jake Tate 2018
 #!/bin/bash
 #
 # Description : Dynamically add machines that are spun up by AWS ASG to Nagios configs
